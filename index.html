@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Music Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">🎵 Portfolio</div>
+    <ul>
+      <li><a href="#intro" class="active">Introduction</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#music">Music</a></li>
+      <li><a href="#goals">Goals</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO / INTRO SECTION -->
+  <section id="intro" class="hero">
+    <h1>Om Chile</h1>
+    <h2>Music Producer & Sound Designer</h2>
+    <p>
+      Curating innovative sounds and beats that push the boundaries of modern music production. 
+      Aspiring music and technology student with a passion for audio engineering and creative composition.
+    </p>
+
+    <div class="buttons">
+      <button id="playBtn" class="btn primary">▶ Play My Beat</button>
+      <a href="resume.pdf" class="btn secondary" download>⬇ Download Resume</a>
+    </div>
+
+    <!-- SOUNDWAVE -->
+    <div class="soundwave" id="soundwave"></div>
+    <audio id="audio" src="your-beat.mp3"></audio>
+  </section>
+
+  <!-- ABOUT ME SECTION -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I’m Om Chile and I love to produce music. I enjoy experimenting 
+      with different drums, textures, and creating entire landscapes and vibes from the sounds I use. I started producing music in 9th grade and 
+      now, I make beats in many different genres like hip hop, pop, and RnB.
+      My goal is to blend technology with creativity to make something unique every time.
+    </p>
+  </section>
+
+  <!-- MUSIC SECTION -->
+  <section id="music">
+    <h2>My Music</h2>
+    <p>Here are some of my beats and projects. Click to listen!</p>
+    <div class="track-list">
+      <div class="track">
+        <h3>Track 1: BEAT NAME</h3>
+        <audio controls src="beat1.mp3"></audio>
+      </div>
+      <div class="track">
+        <h3>Track 2: BEAT NAME</h3>
+        <audio controls src="beat2.mp3"></audio>
+      </div>
+      <div class="track">
+        <h3>Track 3: Ascend</h3>
+        <audio controls src="mystical.wav"></audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOALS SECTION -->
+  <section id="goals">
+    <h2>My Goals</h2>
+    <ul>
+      <li>Study Music Technology/Music Production in college and push the boundaries of sound design.</li>
+      <li>Collaborate with artists and producers across genres.</li>
+      <li>Share my music globally and connect with listeners through emotion.</li>
+    </ul>
+  </section>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
