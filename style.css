@@ -10,7 +10,7 @@ body {
   background-repeat:no-repeat;
   background-size:cover;
   background-position: center; /* Centers the image */
-  */
+  
 }
 
 nav {
@@ -198,12 +198,13 @@ section h2 {
 {
     position: relative;
     /* Other styles for your container, e.g., height, width */
+    
 }
 
 .parent-container::before 
 {
   content: "";
-  background-image: url('home studio.jpg' );
+  background-image: url('home_studio.jpg' );
   background-size: cover; /* or other background properties */
   position: absolute;
   top: 0;
@@ -213,6 +214,5 @@ section h2 {
   opacity: 0.5; /* Adjust as needed */
   z-index: -1; /* Place behind content */
   background-repeat:no-repeat;
-  background-size:cover;
-  background-position: center; 
+  background-position: center;  
 }
