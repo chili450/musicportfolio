@@ -5,6 +5,12 @@ body {
   background: #0f0f10;
   color: #e5e5e5;
   scroll-behavior: smooth;
+ /* background-image: url('home studio.jpg' );
+  opacity: 0.95; 
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center; /* Centers the image */
+  */
 }
 
 nav {
@@ -46,7 +52,8 @@ nav ul li a.active {
 .hero {
   text-align: center;
   padding: 8rem 2rem 4rem;
-  background: radial-gradient(circle at top, #1a1a1f, #0f0f10);
+  background: radial-gradient(circle at top, #1a1a1f, #1e1e2f);
+  border-radius: 12px;
 }
 
 .hero h1 {
@@ -116,6 +123,13 @@ nav ul li a.active {
   margin-top: 2rem;
 }
 
+.mySection {
+  background: #1a1a1f;
+  padding: 1rem;
+  border-radius: 12px;
+  text-align: left;
+}
+
 .track {
   background: #1a1a1f;
   padding: 1rem;
@@ -178,4 +192,27 @@ section h2 {
 
 .track h3 {
   margin-bottom: 8px;
+}
+
+.parent-container 
+{
+    position: relative;
+    /* Other styles for your container, e.g., height, width */
+}
+
+.parent-container::before 
+{
+  content: "";
+  background-image: url('home studio.jpg' );
+  background-size: cover; /* or other background properties */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5; /* Adjust as needed */
+  z-index: -1; /* Place behind content */
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center; 
 }

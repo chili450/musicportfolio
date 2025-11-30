@@ -6,8 +6,11 @@
   <title>Your Music Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
+<body class="parent-container">
+<!--  <audio autoplay loop>
+        <source src="beats/carti type.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio> -->
   <!-- NAVBAR -->
   <nav>
     <div class="logo">🎵 Portfolio</div>
@@ -30,16 +33,17 @@
 
     <div class="buttons">
       <button id="playBtn" class="btn primary">▶ Play My Beat</button>
-      <a href="resume.pdf" class="btn secondary" download>⬇ Download Resume</a>
+      
     </div>
 
     <!-- SOUNDWAVE -->
     <div class="soundwave" id="soundwave"></div>
-    <audio id="audio" src="your-beat.mp3"></audio>
+    <audio id="audio" src="beats/Joyride.wav" type="audio/wav" ></audio>
   </section>
 
   <!-- ABOUT ME SECTION -->
   <section id="about">
+    <div class="mySection">
     <h2>About Me</h2>
     <p>
       Hi! I’m Om Chile and I love to produce music. I enjoy experimenting 
@@ -47,36 +51,47 @@
       now, I make beats in many different genres like hip hop, pop, and RnB.
       My goal is to blend technology with creativity to make something unique every time.
     </p>
+    </div>
   </section>
 
   <!-- MUSIC SECTION -->
   <section id="music">
+    <div class="mySection">
     <h2>My Music</h2>
     <p>Here are some of my beats and projects. Click to listen!</p>
     <div class="track-list">
       <div class="track">
-        <h3>Track 1: BEAT NAME</h3>
-        <audio controls src="beat1.mp3"></audio>
+        <h3>Track 1: Evolve</h3>
+        <span>This is the type of music that plays when the main character in a video game or a movie realizes they have to train to accomplish their goals, so they have a training/self-improvement phase. It gives the vibe of preparing for something to happen. This was created by combining acoustic drum sounds with a soft staccato string and bright and spacious synths, while including sudden stops in the piece to increase anticipation.</span><br/><br/>
+        <audio controls src="beats/Evolve.wav"></audio>
       </div>
       <div class="track">
-        <h3>Track 2: BEAT NAME</h3>
-        <audio controls src="beat2.mp3"></audio>
+        <h3>Track 2: Peace Before Dark</h3>
+        <span>In this piece, I start with a calm R&B song created my layering pads and synths and adding acoustic RnB style drums (picture a bright orange sunset on a beach). The beat is then cooked in the microwave, and out comes an energetic, dark trap beat.</span><br/><br/>
+        <audio controls src="beats/Peace before Dark.wav"></audio>
       </div>
       <div class="track">
         <h3>Track 3: Ascend</h3>
-        <audio controls src="mystical.wav"></audio>
+        <span>I put together a collection of calming synths and had their patterns give the vibe of ascension. As the song progresses, that feeling of ascension lingers until it all suddenly dissipates when the beat drops. Combining sophisticated synths and bells with trap and acoustic drum sounds provides a unique vibe.</span><br/><br/>
+        <audio controls src="beats/Ascend.wav"></audio>
       </div>
+    </div>
     </div>
   </section>
 
   <!-- GOALS SECTION -->
   <section id="goals">
+    <div class="mySection">
+    
     <h2>My Goals</h2>
+    <div class="track">
     <ul>
       <li>Study Music Technology/Music Production in college and push the boundaries of sound design.</li>
       <li>Collaborate with artists and producers across genres.</li>
       <li>Share my music globally and connect with listeners through emotion.</li>
     </ul>
+  </div>
+    </div>
   </section>
 
   <!-- SCRIPT -->
